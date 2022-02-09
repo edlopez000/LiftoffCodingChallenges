@@ -19,7 +19,7 @@ try {
   assert.deepEqual(LongestWord('I love dogs'), 'love');
   console.log(LongestWord('I love dogs'));
 } catch (error) {
-  console.log(error);
+  console.log(`You failed: ${error});
 }
 
 try {
@@ -28,3 +28,4 @@ try {
 } catch (error) {
   console.log(error);
 }
+
