@@ -10,5 +10,5 @@ try {
   assert.deepEqual(FirstReverse('liftoff'), 'ffotfil');
   console.log(FirstReverse('liftoff'));
 } catch (error) {
-  console.log(error);
+  console.log(`${error}`);
 }
